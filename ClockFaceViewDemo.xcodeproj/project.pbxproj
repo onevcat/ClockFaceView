@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D18CE18919F37F7100285AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18CE18819F37F7100285AAE /* AppDelegate.swift */; };
+		D18CE18B19F37F7100285AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18CE18A19F37F7100285AAE /* ViewController.swift */; };
+		D18CE18E19F37F7100285AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18CE18C19F37F7100285AAE /* Main.storyboard */; };
+		D18CE19019F37F7100285AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18CE18F19F37F7100285AAE /* Images.xcassets */; };
+		D18CE19319F37F7100285AAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18CE19119F37F7100285AAE /* LaunchScreen.xib */; };
+		D18CE19F19F37F7200285AAE /* ClockFaceViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18CE19E19F37F7200285AAE /* ClockFaceViewDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D18CE19919F37F7200285AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D18CE17B19F37F7100285AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D18CE18219F37F7100285AAE;
+			remoteInfo = ClockFaceViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D18CE18319F37F7100285AAE /* ClockFaceViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockFaceViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18CE18719F37F7100285AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18CE18819F37F7100285AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18CE18A19F37F7100285AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D18CE18D19F37F7100285AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D18CE18F19F37F7100285AAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D18CE19219F37F7100285AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D18CE19819F37F7200285AAE /* ClockFaceViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockFaceViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18CE19D19F37F7200285AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18CE19E19F37F7200285AAE /* ClockFaceViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFaceViewDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18CE18019F37F7100285AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18CE19519F37F7200285AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D18CE17A19F37F7100285AAE = {
+			isa = PBXGroup;
+			children = (
+				D18CE18519F37F7100285AAE /* ClockFaceViewDemo */,
+				D18CE19B19F37F7200285AAE /* ClockFaceViewDemoTests */,
+				D18CE18419F37F7100285AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D18CE18419F37F7100285AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18CE18319F37F7100285AAE /* ClockFaceViewDemo.app */,
+				D18CE19819F37F7200285AAE /* ClockFaceViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18CE18519F37F7100285AAE /* ClockFaceViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D18CE18819F37F7100285AAE /* AppDelegate.swift */,
+				D18CE18A19F37F7100285AAE /* ViewController.swift */,
+				D18CE18C19F37F7100285AAE /* Main.storyboard */,
+				D18CE18F19F37F7100285AAE /* Images.xcassets */,
+				D18CE19119F37F7100285AAE /* LaunchScreen.xib */,
+				D18CE18619F37F7100285AAE /* Supporting Files */,
+			);
+			path = ClockFaceViewDemo;
+			sourceTree = "<group>";
+		};
+		D18CE18619F37F7100285AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18CE18719F37F7100285AAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D18CE19B19F37F7200285AAE /* ClockFaceViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D18CE19E19F37F7200285AAE /* ClockFaceViewDemoTests.swift */,
+				D18CE19C19F37F7200285AAE /* Supporting Files */,
+			);
+			path = ClockFaceViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D18CE19C19F37F7200285AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18CE19D19F37F7200285AAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18CE18219F37F7100285AAE /* ClockFaceViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18CE1A219F37F7200285AAE /* Build configuration list for PBXNativeTarget "ClockFaceViewDemo" */;
+			buildPhases = (
+				D18CE17F19F37F7100285AAE /* Sources */,
+				D18CE18019F37F7100285AAE /* Frameworks */,
+				D18CE18119F37F7100285AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockFaceViewDemo;
+			productName = ClockFaceViewDemo;
+			productReference = D18CE18319F37F7100285AAE /* ClockFaceViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D18CE19719F37F7200285AAE /* ClockFaceViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18CE1A519F37F7200285AAE /* Build configuration list for PBXNativeTarget "ClockFaceViewDemoTests" */;
+			buildPhases = (
+				D18CE19419F37F7200285AAE /* Sources */,
+				D18CE19519F37F7200285AAE /* Frameworks */,
+				D18CE19619F37F7200285AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D18CE19A19F37F7200285AAE /* PBXTargetDependency */,
+			);
+			name = ClockFaceViewDemoTests;
+			productName = ClockFaceViewDemoTests;
+			productReference = D18CE19819F37F7200285AAE /* ClockFaceViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18CE17B19F37F7100285AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "OneV's Den";
+				TargetAttributes = {
+					D18CE18219F37F7100285AAE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D18CE19719F37F7200285AAE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D18CE18219F37F7100285AAE;
+					};
+				};
+			};
+			buildConfigurationList = D18CE17E19F37F7100285AAE /* Build configuration list for PBXProject "ClockFaceViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18CE17A19F37F7100285AAE;
+			productRefGroup = D18CE18419F37F7100285AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18CE18219F37F7100285AAE /* ClockFaceViewDemo */,
+				D18CE19719F37F7200285AAE /* ClockFaceViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18CE18119F37F7100285AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18CE18E19F37F7100285AAE /* Main.storyboard in Resources */,
+				D18CE19319F37F7100285AAE /* LaunchScreen.xib in Resources */,
+				D18CE19019F37F7100285AAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18CE19619F37F7200285AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18CE17F19F37F7100285AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18CE18B19F37F7100285AAE /* ViewController.swift in Sources */,
+				D18CE18919F37F7100285AAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18CE19419F37F7200285AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18CE19F19F37F7200285AAE /* ClockFaceViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D18CE19A19F37F7200285AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D18CE18219F37F7100285AAE /* ClockFaceViewDemo */;
+			targetProxy = D18CE19919F37F7200285AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D18CE18C19F37F7100285AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18CE18D19F37F7100285AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18CE19119F37F7100285AAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18CE19219F37F7100285AAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18CE1A019F37F7200285AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18CE1A119F37F7200285AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18CE1A319F37F7200285AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockFaceViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D18CE1A419F37F7200285AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockFaceViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D18CE1A619F37F7200285AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClockFaceViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockFaceViewDemo.app/ClockFaceViewDemo";
+			};
+			name = Debug;
+		};
+		D18CE1A719F37F7200285AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClockFaceViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockFaceViewDemo.app/ClockFaceViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18CE17E19F37F7100285AAE /* Build configuration list for PBXProject "ClockFaceViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18CE1A019F37F7200285AAE /* Debug */,
+				D18CE1A119F37F7200285AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18CE1A219F37F7200285AAE /* Build configuration list for PBXNativeTarget "ClockFaceViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18CE1A319F37F7200285AAE /* Debug */,
+				D18CE1A419F37F7200285AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D18CE1A519F37F7200285AAE /* Build configuration list for PBXNativeTarget "ClockFaceViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18CE1A619F37F7200285AAE /* Debug */,
+				D18CE1A719F37F7200285AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18CE17B19F37F7100285AAE /* Project object */;
+}
