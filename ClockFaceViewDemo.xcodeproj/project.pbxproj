@@ -13,6 +13,7 @@
 		D18CE19019F37F7100285AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18CE18F19F37F7100285AAE /* Images.xcassets */; };
 		D18CE19319F37F7100285AAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18CE19119F37F7100285AAE /* LaunchScreen.xib */; };
 		D18CE19F19F37F7200285AAE /* ClockFaceViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18CE19E19F37F7200285AAE /* ClockFaceViewDemoTests.swift */; };
+		D18CE1AA19F37F9400285AAE /* ClockFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18CE1A919F37F9400285AAE /* ClockFaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D18CE19819F37F7200285AAE /* ClockFaceViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockFaceViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18CE19D19F37F7200285AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D18CE19E19F37F7200285AAE /* ClockFaceViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockFaceViewDemoTests.swift; sourceTree = "<group>"; };
+		D18CE1A919F37F9400285AAE /* ClockFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockFaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D18CE18519F37F7100285AAE /* ClockFaceViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D18CE1A819F37F7E00285AAE /* ClockFaceView */,
 				D18CE18819F37F7100285AAE /* AppDelegate.swift */,
 				D18CE18A19F37F7100285AAE /* ViewController.swift */,
 				D18CE18C19F37F7100285AAE /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				D18CE19D19F37F7200285AAE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D18CE1A819F37F7E00285AAE /* ClockFaceView */ = {
+			isa = PBXGroup;
+			children = (
+				D18CE1A919F37F9400285AAE /* ClockFaceView.swift */,
+			);
+			name = ClockFaceView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				D18CE18B19F37F7100285AAE /* ViewController.swift in Sources */,
 				D18CE18919F37F7100285AAE /* AppDelegate.swift in Sources */,
+				D18CE1AA19F37F9400285AAE /* ClockFaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				D18CE1A419F37F7200285AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D18CE1A519F37F7200285AAE /* Build configuration list for PBXNativeTarget "ClockFaceViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				D18CE1A719F37F7200285AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
