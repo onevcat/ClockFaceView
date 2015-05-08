@@ -65,7 +65,7 @@ class ClockFaceView : UIView {
     
     private func refreshTime() {
         if let realTime = time {
-            if let calendar = NSCalendar(calendarIdentifier: NSGregorianCalendar) {
+            if let calendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian) {
                 let components = calendar.components(NSCalendarUnit.CalendarUnitHour |
                                                      NSCalendarUnit.CalendarUnitMinute, fromDate: realTime)
                 clockFace.refreshToHour(components.hour, minute: components.minute)
